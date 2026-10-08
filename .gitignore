@@ -1,0 +1,9 @@
+.DS_Store
+# raw voice notes stay local; commit transcripts, not audio
+_source/audio/*
+!_source/audio/.gitkeep
+# partner documents (e.g. confidential decks) stay local, never deployed
+_source/docs/
+# third-party pulls (Lauren's Drive: interviews, brief) and raw video stay local
+_source/drive/
+_source/video/
